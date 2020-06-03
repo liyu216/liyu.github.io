@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+掷骰子游戏：
+<script language=javascript> 
+var n1 = Math.round(Math.random()* 6); 
+document.writeln("第一次骰子点数为"+ n1); 
+
+var n2 = Math.round(Math.random()* 6 ); 
+document.writeln("第二次骰子点数为"+ n2); 
+
+var n3 = Math.round(Math.random()* 6 ); 
+document.writeln("第三次骰子点数为"+ n3); 
+
+if (n1+n2+n3>=9) {document.writeln("骰子点数和为大")} else{document.writeln("骰子点数和为小")}
+</script> 
+</head>
+
+<body>
+
+</body>
+</html>
